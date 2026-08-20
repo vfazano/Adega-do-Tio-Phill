@@ -1,42 +1,68 @@
-# vue-project
+# 🍻 Adega do Tio Phill
 
-This template should help get you started developing with Vue 3 in Vite.
+> Projeto inicial de uma aplicação web para uma adega local, desenvolvida em Vue.js.
 
-## Recommended IDE Setup
+## 📌 Sobre o projeto
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+A **Adega do Tio Phill** é um projeto desenvolvido com o objetivo de criar uma presença digital para uma adega local, apresentando seus principais produtos de forma simples, moderna e responsiva.
 
-## Recommended Browser Setup
+A aplicação permite que o cliente navegue pelo catálogo, escolha os produtos desejados e monte seu pedido para posteriormente entrar em contato com a adega através do WhatsApp.
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+Este projeto está em sua **primeira versão** e será utilizado como base para futuras melhorias e novas funcionalidades.
 
-## Type Support for `.vue` Imports in TS
+---
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## 🚀 Tecnologias utilizadas
 
-## Customize configuration
+- **Vue.js**
+- **JavaScript**
+- **Vite**
+- **HTML5**
+- **CSS3**
+- **Vue Icons / Emojis**
+- **Integração com WhatsApp**
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+---
 
-## Project Setup
+## ✨ Funcionalidades
 
-```sh
-npm install
-```
+### 🛒 Catálogo de produtos
 
-### Compile and Hot-Reload for Development
+Exibição dos produtos disponíveis na adega, permitindo que o usuário visualize as opções e seus respectivos valores.
 
-```sh
-npm run dev
-```
+### 🛍️ Carrinho
 
-### Type-Check, Compile and Minify for Production
+O usuário pode adicionar produtos ao carrinho e visualizar os itens selecionados antes de realizar o pedido.
 
-```sh
-npm run build
-```
+### 📱 Pedido pelo WhatsApp
+
+Após montar o carrinho, o pedido pode ser encaminhado diretamente para o WhatsApp da adega.
+
+### 📱 Design responsivo
+
+A interface foi desenvolvida pensando também em dispositivos móveis, permitindo que o cliente acesse a loja pelo celular.
+
+### 🔞 Controle de idade
+
+O projeto conta com uma etapa inicial de confirmação de idade antes do acesso ao conteúdo da loja.
+
+---
+
+## 🎯 Objetivo
+
+O principal objetivo deste projeto é transformar uma experiência que atualmente acontece de maneira mais tradicional em uma experiência digital simples e acessível.
+
+A ideia é permitir que o cliente:
+
+```text
+Entrar no site
+     ↓
+Visualizar os produtos
+     ↓
+Escolher os produtos
+     ↓
+Adicionar ao carrinho
+     ↓
+Conferir o pedido
+     ↓
+Enviar pelo WhatsApp
