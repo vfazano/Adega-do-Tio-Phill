@@ -25,6 +25,7 @@ Este projeto está em sua **primeira versão** e será utilizado como base para 
 ---
 
 ## ✨ Funcionalidades
+ll
 
 ### 🛒 Catálogo de produtos
 
